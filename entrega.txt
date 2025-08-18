@@ -2,7 +2,7 @@ Nome: Renata Toncovitch
 Matrícula: 253041005
 URL do repositório: <https://github.com/retonco/Repo-GIT>
 TAG: entrega-aula02-253041005
-SHA: 8baa2414ca31124cd185b2f6dc6be5be11cebe99
+SHA: e006ae3e8e77a1500deed3d375354cca2c991f04
 
 Lista de comandos executados:
 cd ~/Repo-GIT
