@@ -1,1 +1,12 @@
-Comentários, observações ou dificuldades da atividade.
+Comentários: Entrega realizada com sucesso.
+
+Dificuldades encontradas:
+1. Branch principal diferente: no enunciado foi usado "master", mas no meu repositório o branch principal é "main". Isso gerou erros de push até eu corrigir para "main".
+2. Erro non-fast-forward: aconteceu porque o repositório remoto estava na frente do local. Resolvi com git pull origin main --rebase antes do push.
+3. Diretório incorreto: no início eu estava no diretório ~ (pasta do Windows) em vez do repositório Repo-GIT. Isso gerou muitos arquivos "untracked". Resolvi entrando na pasta correta com cd Repo-GIT.
+4. Atualização do SHA no entrega.txt: percebi que o SHA muda após cada commit. Precisei atualizar o arquivo e refazer a TAG para que ela apontasse para o commit certo.
+
+Observações:
+- A ordem correta dos comandos no Git é extremamente importante
+- A TAG é apenas um apelido para um commit. Se o commit muda, é necessário recriar a tag.
+- Consegui diferenciar erros de branch errado e de push rejeitado.
