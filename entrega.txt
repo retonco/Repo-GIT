@@ -4,4 +4,34 @@ URL do repositório: <https://github.com/retonco/Repo-GIT>
 TAG: entrega-aula02-253041005
 SHA: 8baa2414ca31124cd185b2f6dc6be5be11cebe99
 
+Lista de comandos executados:
+cd ~/Repo-GIT
+echo "Matrícula: 253041005" > entrega.txt
+echo "Nome: Renata Toncovitch" >> entrega.txt
+echo "Tag: entrega-aula02-253041005" >> entrega.txt
+echo "SHA: " >> entrega.txt
+echo "Comentários: Entrega realizada com sucesso." > comentarios.txt
+git add entrega.txt comentarios.txt
+git commit -m "Adiciona entrega.txt e comentarios.txt"
+git push origin main
+---
+git branch
+git checkout main
+git pull origin main --rebase
+---
+git push origin main
+git tag -a entrega-aula02-253041005 -m "Entrega Aula 02 - Renata Toncovitch"
+git push origin entrega-aula02-253041005
+git rev-parse entrega-aula02-253041005
+git add entrega.txt
+git commit -m "Atualiza entrega.txt com SHA da tag"
+git push origin main
+git add comentarios.txt
+git commit -m "Atualiza comentarios.txt com observações finais"
+git push origin main
+git tag -d entrega-aula02-253041005
+git push origin :refs/tags/entrega-aula02-253041005
+git tag -a entrega-aula02-253041005 -m "Entrega Aula 02 - Renata Toncovitch"
+git push origin entrega-aula02-253041005
+
 
